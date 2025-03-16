@@ -1,0 +1,38 @@
+  services:
+    accounts:
+     image: "anand5173/accounts:1.0"
+     container_name: accounts-ms
+     ports:
+       - "9090:9090"
+     deploy:
+       resources:
+         limits:
+           memory: "128m"
+     networks:
+       - bank
+    cards:
+      image: "anand5173/cards:1.0"
+      container_name: cards-ms
+      ports:
+        - "9091:9091"
+      deploy:
+        resources:
+          limits:
+            memory: "128m"
+      networks:
+        - bank
+    loans:
+      image: "anand5173/loans:1.0"
+      container_name: loans-ms
+      ports:
+        - "9092:9092"
+      deploy:
+        resources:
+          limits:
+            memory: "128m"
+      networks:
+        - bank
+  networks:
+    bank:
+      driver: "bridge"
+
