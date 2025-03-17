@@ -2,12 +2,20 @@ spring:
   application:
     name: "config server"
   profiles:
-    active: native
+    active: git
+  #active: native    #for local folder like file or classpath
+
   cloud:
    config:
     server:
-      native:
-        search-locations: "classpath:/config"
-
+      #native:
+       # search-locations: "classpath:/config"
+       # search-locations: "file:///user//config//"
+       git:
+         uri: "https://github.com/Anandnand/Bank-config.git"
+         default-label: main
+         timeout: 5
+         clone-on-start: true
+         refresh-rate: 5
 server:
   port: 9090

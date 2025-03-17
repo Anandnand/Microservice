@@ -21,3 +21,9 @@ spring:
       - "prod"
   config:
     import: "optional:configserver:http://localhost:9090/"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        exclude: "*"
