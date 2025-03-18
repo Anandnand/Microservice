@@ -1,5 +1,5 @@
 server:
-  port: 8083
+  port: 8092
 spring:
   application:
     name: "loans"
@@ -21,6 +21,11 @@ spring:
       - "prod"
   config:
     import: "optional:configserver:http://localhost:9090/"
+    rabbitmq:
+      host: "localhost"
+      port: 5672
+      username: "guest"
+      password: "guest"
 
 management:
   endpoints:

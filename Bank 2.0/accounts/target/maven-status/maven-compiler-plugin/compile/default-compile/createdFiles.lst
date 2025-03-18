@@ -6,6 +6,7 @@ com\bank\accounts\entity\Accounts.class
 com\bank\accounts\dto\ErrorResponseDto.class
 com\bank\accounts\exception\CustomerAlreadyExistsException.class
 com\bank\accounts\dto\CustomerDto.class
+com\bank\accounts\dto\AccountsContactInfoDto.class
 com\bank\accounts\entity\Customer.class
 com\bank\accounts\service\IAccountsService.class
 com\bank\accounts\entity\BaseEntity.class

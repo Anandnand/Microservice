@@ -1,5 +1,5 @@
 server:
-  port: 8082
+  port: 8091
 spring:
   application:
     name: "cards"
@@ -20,7 +20,11 @@ spring:
     show-sql: true
   config:
     import: "optional:configserver:http://localhost:9090/"
-
+  rabbitmq:
+    host: "localhost"
+    port: 5672
+    username: "guest"
+    password: "guest"
 management:
   endpoints:
     web:
