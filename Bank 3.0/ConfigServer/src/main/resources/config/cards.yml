@@ -1,0 +1,13 @@
+
+
+build:
+  version: "1.0"
+
+cards:
+  message: "Welcome to Bank accounts related local APIs "
+  contactDetails:
+    name: "Anand - Developer"
+    email: "Anandnand5173@gmail.com"
+  onCallSupport:
+    - (555) 555-1234
+    - (555) 523-1345
