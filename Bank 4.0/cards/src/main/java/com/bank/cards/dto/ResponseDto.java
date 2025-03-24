@@ -21,6 +21,5 @@ public class ResponseDto {
     )
     private String statusMsg;
 
-    public ResponseDto(String status201, String message201) {
-    }
+
 }

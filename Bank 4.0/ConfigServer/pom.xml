@@ -71,7 +71,7 @@
 				<version>3.4.2</version>
 				<configuration>
 					<to>
-						<image>docker.io/anand5173/configserver:2.0</image>
+						<image>docker.io/anand5173/configserver:4.0</image>
 					</to>
 				</configuration>
 			</plugin>
