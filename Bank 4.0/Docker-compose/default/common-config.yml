@@ -21,11 +21,20 @@ services:
       SPRING_PROFILES_ACTIVE: default
       SPRING_CONFIG_IMPORT: configserver:http://configserver:9090/
 
-  microservice-eurekaserver-config:
+  microservice-eureka-config:
     extends:
       service: microservice-configserver-config
     depends_on:
-      eurekaserver:
+      configserver:
         condition: service_healthy
     environment:
-      SPRING_CLIENT_SERVICEURL_DEFAULTZONE: http://eurekaserver:8089/eureka/
+      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: "http://eurekaserver:8089/eureka/"
+
+  eurekaserver:
+    extends:
+      service: microservice-base-config
+    depends_on:
+      configserver:
+        condition: service_healthy
+    environment:
+      SPRING_CONFIG_IMPORT: configserver:http://configserver:9090/
