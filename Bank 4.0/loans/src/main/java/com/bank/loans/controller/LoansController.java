@@ -38,6 +38,11 @@ import org.springframework.web.bind.annotation.*;
 @Validated
 public class LoansController {
 
+    private ILoansService iLoansService;
+
+    public LoansController(ILoansService iLoansService) {
+        this.iLoansService = iLoansService;
+    }
 
     @Value("${build.version}")
     public String buildVersion;
@@ -47,8 +52,6 @@ public class LoansController {
 
     @Autowired
     private LoansContactInfoDto loansContactInfoDto;
-
-    private ILoansService iLoansService;
 
     @Operation(
             summary = "Create Loan REST API",

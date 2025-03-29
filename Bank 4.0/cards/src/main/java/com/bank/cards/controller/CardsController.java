@@ -37,6 +37,12 @@ import org.springframework.web.bind.annotation.*;
 //@AllArgsConstructor
 @Validated
 public class CardsController {
+    private ICardsService iCardsService;
+
+    public CardsController(ICardsService iCardsService) {
+        this.iCardsService = iCardsService;
+    }
+
 
     @Value("${build.version}")
     public String buildVersion;
@@ -47,7 +53,6 @@ public class CardsController {
     @Autowired
     private CardsContactInfoDto cardsContactInfoDto;
 
-    private ICardsService iCardsService;
 
     @Operation(
             summary = "Create Card REST API",

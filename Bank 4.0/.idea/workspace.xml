@@ -8,7 +8,20 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docker-compose/default/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Docker-compose/default/common-config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docker-compose/default/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Docker-compose/default/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker-compose/prod/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Docker-compose/prod/common-config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker-compose/prod/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Docker-compose/prod/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker-compose/qa/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Docker-compose/qa/common-config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker-compose/qa/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Docker-compose/qa/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/bank/cards/controller/CardsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cards/src/main/java/com/bank/cards/controller/CardsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eurekaserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaserver/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/bank/loans/controller/LoansController.java" beforeDir="false" afterPath="$PROJECT_DIR$/loans/src/main/java/com/bank/loans/controller/LoansController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/classes/com/bank/loans/controller/LoansController.class" beforeDir="false" afterPath="$PROJECT_DIR$/loans/target/classes/com/bank/loans/controller/LoansController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/jib-image.digest" beforeDir="false" afterPath="$PROJECT_DIR$/loans/target/jib-image.digest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/jib-image.id" beforeDir="false" afterPath="$PROJECT_DIR$/loans/target/jib-image.id" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/jib-image.json" beforeDir="false" afterPath="$PROJECT_DIR$/loans/target/jib-image.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +74,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Projects/Microservice/Bank 4.0",
+    "last_opened_file_path": "C:/Projects/Bank-config",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -100,7 +113,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CardsApplication">
+  <component name="RunManager" selected="Application.EurekaserverApplication">
     <configuration name="AccountsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bank.accounts.AccountsApplication" />
       <module name="accounts" />
@@ -201,9 +214,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CardsApplication" />
         <item itemvalue="Application.EurekaserverApplication" />
         <item itemvalue="Application.ConfigServerApplication" />
+        <item itemvalue="Application.CardsApplication" />
         <item itemvalue="Application.LoansApplication" />
         <item itemvalue="Application.AccountsApplication" />
       </list>
