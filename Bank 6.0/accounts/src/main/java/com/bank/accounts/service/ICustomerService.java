@@ -1,0 +1,12 @@
+package com.bank.accounts.service;
+
+import com.bank.accounts.dto.CustomerDetailsDto;
+
+public interface ICustomerService {
+    /**
+     * @param mobileNumber - Input Mobile Number
+     * @param correlationId - Correlation ID value generated at Edge server
+     * @return Customer Details based on a given mobileNumber
+     */
+    CustomerDetailsDto fetchCustomerDetails(String mobileNumber, String correlationId);
+}
