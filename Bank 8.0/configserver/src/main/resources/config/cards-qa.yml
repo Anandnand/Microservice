@@ -1,11 +1,12 @@
+
 build:
   version: "2.0"
 
 cards:
-  message: "Welcome to EazyBank cards related QA APIs "
+  message: "Welcome to Bank accounts related Pre-Production APIs "
   contactDetails:
-    name: "Cherryl Pankaj - QA Lead"
-    email: "cherryl@eazybank.com"
+    name: "Pavan - Developer"
+    email: "Pavan5173@gmail.com"
   onCallSupport:
-    - (310) 875-4367
-    - (201) 236-1267
+    - (555) 555-1234
+    - (555) 523-1345

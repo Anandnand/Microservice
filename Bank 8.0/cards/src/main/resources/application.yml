@@ -1,12 +1,12 @@
 server:
-  port: 9000
+  port: 8091
 spring:
   application:
     name: "cards"
   profiles:
     active: "prod"
   datasource:
-    url: jdbc:h2:mem:testdb
+    url: jdbc:h2:mem:bankDetails
     driverClassName: org.h2.Driver
     username: sa
     password: ''
@@ -60,13 +60,13 @@ eureka:
 info:
   app:
     name: "cards"
-    description: "Eazy Bank Cards Application"
+    description: "Bank Cards Application"
     version: "1.0.0"
 
 logging:
   level:
     com:
-      eazybytes:
+      bank:
         cards: DEBUG
   pattern:
     level: "%5p [${spring.application.name},%X{trace_id},%X{span_id}]"
