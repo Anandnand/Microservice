@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: configserver
-          image: anand5173/configserver:10.0
+          image: anand5173/configserver:8.0
           ports:
             - containerPort: 8071
 ---
